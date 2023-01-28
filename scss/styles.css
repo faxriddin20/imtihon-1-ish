@@ -1,0 +1,165 @@
+.trash {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 390px) {
+  .wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 390px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+  }
+  .card {
+    width: 360px;
+    height: 700px;
+    padding-bottom: 700px;
+  }
+  .card img {
+    width: 260px;
+    height: 200px;
+  }
+  .card .card-body {
+    text-align: center;
+    width: 260px;
+    background-color: white;
+    border: 1px solid white;
+  }
+  .card button {
+    width: 250px;
+    background-color: white;
+    border: 1 solid white;
+  }
+  .card .card-footer {
+    background-color: white;
+    border-radius: 1px solid white;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 390px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+  }
+  .card {
+    width: 360px;
+    height: 700px;
+    padding-bottom: 700px;
+  }
+  .card img {
+    width: 260px;
+    height: 200px;
+  }
+  .card .card-body {
+    text-align: center;
+    width: 260px;
+    background-color: white;
+    border: 1px solid white;
+  }
+  .card button {
+    width: 250px;
+    background-color: white;
+    border: 1 solid white;
+  }
+  .card .card-footer {
+    background-color: white;
+    border-radius: 1px solid white;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 390px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+  }
+  .card {
+    width: 360px;
+    height: 700px;
+    padding-bottom: 700px;
+  }
+  .card img {
+    width: 260px;
+    height: 200px;
+  }
+  .card .card-body {
+    text-align: center;
+    width: 260px;
+    background-color: white;
+    border: 1px solid white;
+  }
+  .card button {
+    width: 250px;
+    background-color: white;
+    border: 1 solid white;
+  }
+  .card .card-footer {
+    background-color: white;
+    border-radius: 1px solid white;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 390px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+  }
+  .card {
+    width: 360px;
+    height: 700px;
+    padding-bottom: 700px;
+  }
+  .card img {
+    width: 260px;
+    height: 200px;
+  }
+  .card .card-body {
+    text-align: center;
+    width: 260px;
+    background-color: white;
+    border: 1px solid white;
+  }
+  .card button {
+    width: 250px;
+    background-color: white;
+    border: 1 solid white;
+  }
+  .card .card-footer {
+    text-align: end;
+    background-color: white;
+    border-radius: 1px solid white;
+  }
+  .card .card-footer .trash {
+    width: 30px;
+    height: 30px;
+  }
+}
+/*# sourceMappingURL=styles.css.map */

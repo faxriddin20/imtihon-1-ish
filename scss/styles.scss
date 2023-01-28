@@ -1,0 +1,151 @@
+
+.trash{
+    cursor: pointer;
+}
+@media screen and(max-width:390px) {
+    .wrapper{
+        display: flex;
+        width: 390px;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+    .card{
+        width: 360px;
+        height: 700px;
+        padding-bottom: 700px;
+        img{
+            width: 260px;
+            height: 200px;
+        }
+        .card-body{
+            text-align: center;
+            width: 260px;
+            background-color: white;
+            border: 1px solid white;
+        }
+        button{
+            width: 250px;
+            background-color: white;
+            border: 1 solid white;
+        }
+        .card-footer{
+            background-color: white;
+            border-radius: 1px solid white;
+        }
+    }
+    
+}
+
+
+
+@media screen and(max-width:414px) {
+    .wrapper{
+        display: flex;
+        width: 390px;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+    .card{
+        width: 360px;
+        height: 700px;
+        padding-bottom: 700px;
+        img{
+            width: 260px;
+            height: 200px;
+        }
+        .card-body{
+            text-align: center;
+            width: 260px;
+            background-color: white;
+            border: 1px solid white;
+        }
+        button{
+            width: 250px;
+            background-color: white;
+            border: 1 solid white;
+        }
+        .card-footer{
+            background-color: white;
+            border-radius: 1px solid white;
+        }
+    }
+    
+}
+
+
+
+@media screen and(max-width:480px) {
+    .wrapper{
+        display: flex;
+        width: 390px;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+    .card{
+        width: 360px;
+        height: 700px;
+        padding-bottom: 700px;
+        img{
+            width: 260px;
+            height: 200px;
+        }
+        .card-body{
+            text-align: center;
+            width: 260px;
+            background-color: white;
+            border: 1px solid white;
+        }
+        button{
+            width: 250px;
+            background-color: white;
+            border: 1 solid white;
+        }
+        .card-footer{
+            background-color: white;
+            border-radius: 1px solid white;
+        }
+    }
+    
+}
+
+
+
+@media screen and(max-width:400px) {
+    .wrapper{
+        display: flex;
+        width: 390px;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+    .card{
+        width: 360px;
+        height: 700px;
+        padding-bottom: 700px;
+        img{
+            width: 260px;
+            height: 200px;
+        }
+        .card-body{
+            text-align: center;
+            width: 260px;
+            background-color: white;
+            border: 1px solid white;
+        }
+        button{
+            width: 250px;
+            background-color: white;
+            border: 1 solid white;
+        }
+        .card-footer{
+            text-align: end;
+            background-color: white;
+            border-radius: 1px solid white;
+            .trash{
+                width: 30px;
+                height: 30px;
+            }
+        }
+    }
+    
+    
+}
